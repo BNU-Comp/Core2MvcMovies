@@ -20,6 +20,16 @@ namespace CoreMvcMovies2019.Controllers
             return View();
         }
 
+        public IActionResult Series()
+        {
+            return View();
+        }
+
+        public IActionResult MyList()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
