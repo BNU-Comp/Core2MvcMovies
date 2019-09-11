@@ -12,11 +12,17 @@ namespace CoreMvcMovies2019.Controllers
         // 
         // GET: /HelloWorld/
 
-        public string Index()
+        public IActionResult Index()
         {
-            return "Hello -> This is my default action...";
+            return View();
         }
 
+        public string Message()
+        {
+            string message = "<section class='jumbotron'><h1>Hello Index View</h1></section>";
+
+            return message;
+        }
         // 
         // GET: /HelloWorld/Welcome/ 
 
